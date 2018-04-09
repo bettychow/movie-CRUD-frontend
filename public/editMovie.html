@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Edit Movie</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+  <div class="edit-movie">
+    <h1 id="movie-header"></h1>
+    <img id="movie-poster" src="" alt="">
+    <form action="">
+      <div>
+          <label for="movie-title">Title: </label>
+          <input id="movie-title" type="text" name="movie-title">
+      </div>
+      <div>
+          <label for="director">Director: </label>
+          <input id="director" type="text" name="director">
+      </div>
+      <div>
+          <label for="year">Year: </label>
+          <input id="year" type="text" name="year">
+      </div>
+      <div>
+          <label for="rating">Rating: </label>
+          <input id="rating" type="text" name="rating">
+      </div>
+      <div>
+          <label for="movie-url">Rating: </label>
+          <input id="movie-url" type="text" name="movie-url">
+      </div>
+    </form>
+    <button id="submit-button">Submit</button>  
+  </div>
+  <script src="shared.js"></script>  
+  <script src="editMovie.js"></script>
+</body>
+</html>

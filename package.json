@@ -1,0 +1,28 @@
+{
+  "name": "movie-CRUD-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "renderPage.js",
+  "scripts": {
+    "dev": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bettychow/movie-CRUD-frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bettychow/movie-CRUD-frontend/issues"
+  },
+  "homepage": "https://github.com/bettychow/movie-CRUD-frontend#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "live-server": "^1.2.0"
+  }
+}
